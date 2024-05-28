@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Main = () => {
     return (
-        <Box>
+        <Box sx={{ height: '90vh' }}>
             <Link to={'/channel'}>
                 <Button>Channel</Button>
             </Link>

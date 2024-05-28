@@ -20,3 +20,38 @@
 .search-bar::placeholder {
     color: #999999;
 }
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.category {
+    border-top: #424242 solid 1.5px;
+    border-bottom: #424242 solid 1.5px;
+}
+
+.category-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 0;
+    border-radius: 25px;
+    padding: 4px 17px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 400;
+    background-color: #333;
+    border: #424242 solid 1px;
+    color: #efefef;
+    transition: 0.3s;
+}
+
+.category-btn:hover {
+    background-color: #d6d6d6;
+    color: #181818;
+}
+
+.category-btn:active {
+    opacity: 0.5;
+}

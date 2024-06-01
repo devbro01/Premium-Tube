@@ -1,5 +1,5 @@
 import { CheckCircle } from '@mui/icons-material'
-import { Box, CardContent, CardMedia, Typography } from '@mui/material'
+import { Box, CardActionArea, CardContent, CardMedia, Typography } from '@mui/material'
 
 const ChannelCard = ({ video }) => {
   return (
@@ -10,13 +10,14 @@ const ChannelCard = ({ video }) => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        width: { xs: '356px', md: '320px' },
+        width: { xs: '356px', md: '300px' },
         height: '326px',
         margin: 'auto',
       }}
     >
       <CardContent>
         <CardMedia
+          component="img"
           image={video?.snippet?.thumbnails?.default?.url}
           alt={video?.snippet?.title}
           sx={{
@@ -27,13 +28,12 @@ const ChannelCard = ({ video }) => {
             border: '1px solid #e3e3e3',
           }}
         />
-
-        <Typography variant={'h6'}>
+        <Typography variant="h6" align="center">
           {video?.snippet?.title}
-          <CheckCircle />
+          <CheckCircle sx={{ ml: 1, fontSize: 'inherit' }} />
         </Typography>
         {video?.statistics?.subscriberCount && (
-          <Typography sx={{ fontSize: '15px', fontWeight: 500, color: 'gray' }}>
+          <Typography sx={{ fontSize: '15px', fontWeight: 500, color: 'gray', mt: 1 }}>
             {parseInt(video?.statistics?.subscriberCount).toLocaleString('en-US')} Subscribers
           </Typography>
         )}

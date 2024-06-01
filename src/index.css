@@ -14,15 +14,27 @@ body {
 .search-bar {
   border: none;
   outline: none;
-  width: 525px;
   background-color: #181818;
   color: #ababab;
   font-size: 16px;
   font-weight: normal;
+  width: 610px;
 }
 
 .search-bar::placeholder {
   color: #999999;
+}
+
+@media (max-width: 880px) {
+  .search-bar {
+    width: 80px;
+  }
+}
+
+@media (min-width: 370px) {
+  .search-box {
+    display: none;
+  }
 }
 
 ::-webkit-scrollbar {

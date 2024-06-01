@@ -17,7 +17,8 @@ const Main = () => {
 
     getData()
     // eslint-disable-next-line
-  }, [])
+  }, [selectedCategory])
+
   return (
     <Stack>
       <Category selectCategoryHandler={selectCategoryHandler} selectedCategory={selectedCategory} />

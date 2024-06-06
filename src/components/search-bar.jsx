@@ -10,7 +10,6 @@ const SearchBar = () => {
 
   const formHandler = (e) => {
     e.preventDefault()
-    console.log(value)
     if (value) {
       navigate(`/search/${value}`)
       setValue('')
@@ -22,6 +21,8 @@ const SearchBar = () => {
       component={'form'}
       onSubmit={formHandler}
       sx={{
+        display: 'flex',
+        flexDirection: 'row',
         border: `2px solid ${colors.grey}`,
         pl: 2,
         bgcolor: colors.secondary,

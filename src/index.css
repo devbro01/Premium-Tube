@@ -25,20 +25,8 @@ body {
   color: #999999;
 }
 
-@media (max-width: 880px) {
-  .search-bar {
-    width: 80px;
-  }
-}
-
-@media (min-width: 370px) {
-  .search-box {
-    display: none;
-  }
-}
-
 ::-webkit-scrollbar {
-  display: none;
+  width: 0;
 }
 
 .category {
@@ -70,4 +58,24 @@ body {
 
 .category-btn:active {
   opacity: 0.5;
+}
+
+.react-player {
+  height: 77vh !important;
+  width: 100% !important;
+}
+
+@media (max-width: 880px) {
+  .search-bar {
+    width: 90%;
+  }
+  .react-player {
+    height: 45vh !important;
+  }
+}
+
+@media (min-width: 370px) {
+  .search-box {
+    display: none;
+  }
 }

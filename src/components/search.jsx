@@ -12,7 +12,6 @@ const Search = () => {
     const getData = async () => {
       try {
         const data = await ApiSerive.fetching(`search?part=snippet&q=${id}`)
-        console.log(data)
         setVidios(data.items)
       } catch (error) {
         console.log(error)
@@ -26,7 +25,7 @@ const Search = () => {
     <Box p={2} sx={{ height: '90vh' }}>
       <Container maxWidth="90%">
         <Typography variant="h4" fontWeight="bold" mb={2}>
-          Search results for {id} videos
+          Search results for {id} videos - {vidios.length} results
         </Typography>
         <Vidios vidios={vidios} />
       </Container>

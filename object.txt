@@ -1,0 +1,76 @@
+{
+    "kind": "youtube#video",
+    "id": "dxNDRw3V0ic",
+    "snippet": {
+        "publishedAt": "2024-06-04T23:04:29Z",
+        "channelId": "UCp6_KuNhT0kcFk-jXw9Tivg",
+        "title": "Top Songs 2024 ♪ Pop Music Playlist ♪ Music New Songs 2024 @magicplaylist.",
+        "description": "Listen more on: @magicplaylist. \nTop Songs 2024 ♪ Pop Music Playlist ♪ Music New Songs 2024 \nSongs in this playlist:\n01. Aqua Vibe, Pop Mage - Flowers\n02. Dj Goja, Magic Phase - Calm Down\n03. Mandrazo & Bianca - Dusk Till Dawn\n04. Mandrazo & Bianca - Unstoppable\n05. Mandrazo, Pop Mage - Blinding Lights\n06. Mandrazo, Pop Mage ft Honeyfox - Havana\n07. Pop Mage - Bad Habits\n08. Pop Mage - Bad Liar\n09. Pop Mage - Flowers\n10. Pop Mage - Price Tag\n11. Pop Mage, JustCosplaySings - Cupid\n12. Pop Mage, Mandrazo - Sweet But Psycho\n13. Pop Mage, Petricor, Marie Maria - Nonsense\n14. Pop Mage, Petricor, Marie Maria - Shallow\n15. Pop Mage, Petricor, Marie Maria - Shivers\n16. Pop Mage, Petricor, Marie Maria - Treat You Better\n17. Pop Mage, Petricor, Sup I’m Bianca - Bad Guy\n18. Pop Mage, Sup I’m Bianca ft Mandrazo - Hall Of Fame\n19. Pop Mage, Sup I’m Bianca, ThatMikeGuy - Born This Way\n20. Pop Mage, Sup I’m Bianca, ThatMikeGuy - Dance Monkey\n21. Mandrazo, Pop Mage - I like Me Better\n22. ThatMikeGuy, S.I.B, Pop Mage - Kill Bill\n23. Pop Mage - Eyes Closed\n24. Glen, Pop Mage - Lavender Haze",
+        "thumbnails": {
+            "default": {
+                "url": "https://i.ytimg.com/vi/dxNDRw3V0ic/default_live.jpg",
+                "width": 120,
+                "height": 90
+            },
+            "medium": {
+                "url": "https://i.ytimg.com/vi/dxNDRw3V0ic/mqdefault_live.jpg",
+                "width": 320,
+                "height": 180
+            },
+            "high": {
+                "url": "https://i.ytimg.com/vi/dxNDRw3V0ic/hqdefault_live.jpg",
+                "width": 480,
+                "height": 360
+            },
+            "standard": {
+                "url": "https://i.ytimg.com/vi/dxNDRw3V0ic/sddefault_live.jpg",
+                "width": 640,
+                "height": 480
+            },
+            "maxres": {
+                "url": "https://i.ytimg.com/vi/dxNDRw3V0ic/maxresdefault_live.jpg",
+                "width": 1280,
+                "height": 720
+            }
+        },
+        "channelTitle": "Magic Music",
+        "tags": [
+            "songs 2023",
+            "songs",
+            "music",
+            "music 2023",
+            "songs 2024",
+            "new songs 2023",
+            "new songs 2024",
+            "playlist",
+            "music new songs",
+            "english songs",
+            "pop",
+            "pop music",
+            "top 100 songs",
+            "hot songs"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "live",
+        "localized": {
+            "title": "Top Songs 2024 ♪ Pop Music Playlist ♪ Music New Songs 2024 @magicplaylist.",
+            "description": "Listen more on: @magicplaylist. \nTop Songs 2024 ♪ Pop Music Playlist ♪ Music New Songs 2024 \nSongs in this playlist:\n01. Aqua Vibe, Pop Mage - Flowers\n02. Dj Goja, Magic Phase - Calm Down\n03. Mandrazo & Bianca - Dusk Till Dawn\n04. Mandrazo & Bianca - Unstoppable\n05. Mandrazo, Pop Mage - Blinding Lights\n06. Mandrazo, Pop Mage ft Honeyfox - Havana\n07. Pop Mage - Bad Habits\n08. Pop Mage - Bad Liar\n09. Pop Mage - Flowers\n10. Pop Mage - Price Tag\n11. Pop Mage, JustCosplaySings - Cupid\n12. Pop Mage, Mandrazo - Sweet But Psycho\n13. Pop Mage, Petricor, Marie Maria - Nonsense\n14. Pop Mage, Petricor, Marie Maria - Shallow\n15. Pop Mage, Petricor, Marie Maria - Shivers\n16. Pop Mage, Petricor, Marie Maria - Treat You Better\n17. Pop Mage, Petricor, Sup I’m Bianca - Bad Guy\n18. Pop Mage, Sup I’m Bianca ft Mandrazo - Hall Of Fame\n19. Pop Mage, Sup I’m Bianca, ThatMikeGuy - Born This Way\n20. Pop Mage, Sup I’m Bianca, ThatMikeGuy - Dance Monkey\n21. Mandrazo, Pop Mage - I like Me Better\n22. ThatMikeGuy, S.I.B, Pop Mage - Kill Bill\n23. Pop Mage - Eyes Closed\n24. Glen, Pop Mage - Lavender Haze"
+        },
+        "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+        "duration": "P0D",
+        "dimension": "2d",
+        "definition": "sd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+    },
+    "statistics": {
+        "viewCount": "1057",
+        "likeCount": "75",
+        "favoriteCount": "0",
+        "commentCount": "0"
+    }
+}

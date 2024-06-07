@@ -22,7 +22,7 @@ const Main = () => {
   return (
     <Stack>
       <Category selectCategoryHandler={selectCategoryHandler} selectedCategory={selectedCategory} />
-      <Box p={2} sx={{ height: '90vh'}}>
+      <Box p={2} sx={{ height: '90vh' }}>
         <Container maxWidth={'90%'}>
           <Typography variant={'h4'} fontWeight={'bold'} mb={2}>
             {selectedCategory} <span style={{ color: colors.white }}>vidios</span>

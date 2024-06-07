@@ -48,18 +48,20 @@ const VideoCard = ({ video }) => {
               {video?.snippet?.description.slice(0, 70)}
             </Typography>
 
-            <Stack direction="row" alignItems="center" spacing={1} position="absolute" bottom="16px">
-              <Typography variant="subtitle2" color="gray">
-                {video?.snippet?.channelTitle.slice(0, 25)}
-              </Typography>
-              <CheckCircle sx={{ fontSize: 12, color: 'gray' }} />
-            </Stack>
             <Typography
               variant="caption"
               sx={{ opacity: 0.6, position: 'absolute', bottom: '4px', left: '16px' }}
             >
               {moment(video?.snippet?.publishedAt).fromNow()}
             </Typography>
+            <Link to={`/channel/${video?.snippet?.channelId}`}>
+              <Stack direction="row" alignItems="center" spacing={'2px'} position="absolute" bottom="20px">
+                <Typography variant="subtitle2" color="gray">
+                  {video?.snippet?.channelTitle.slice(0, 25)}
+                </Typography>
+                <CheckCircle sx={{ fontSize: 12, color: 'gray' }} />
+              </Stack>
+            </Link>
           </CardContent>
         </Link>
       </CardActionArea>

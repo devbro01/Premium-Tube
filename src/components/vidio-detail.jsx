@@ -6,6 +6,7 @@ import ReactPlayer from 'react-player'
 import { CheckCircle, FavoriteOutlined, MarkChatRead, Tag, Visibility } from '@mui/icons-material'
 import Loader from './loader'
 import Vidios from './vidios'
+import { Link } from 'react-router-dom'
 
 const VidioDetail = () => {
   const { id } = useParams()
@@ -66,13 +67,18 @@ const VidioDetail = () => {
             </Stack>
           </Stack>
 
-          <Stack py={1} px={2} direction="row" alignItems="center" gap="10px" marginTop="5px">
-            <Avatar alt={videoDetail.snippet.channelTitle} src={videoDetail.snippet.thumbnails.default.url} />
-            <Typography variant="subtitle2" color={colors.grey[200]}>
-              {videoDetail.snippet.channelTitle}
-              <CheckCircle sx={{ fontSize: '12px', color: 'gray', ml: '5px' }} />
-            </Typography>
-          </Stack>
+          <Link
+            style={{ textDecoration: 'none', color: '#efefef' }}
+            to={`/channel/${videoDetail?.snippet?.channelId}`}
+          >
+            <Stack py={1} px={2} direction="row" alignItems="center" gap="10px" marginTop="5px">
+              <Avatar alt={videoDetail.snippet.channelTitle} src={videoDetail.snippet.thumbnails.default.url} />
+              <Typography variant="subtitle2" color={colors.grey[200]}>
+                {videoDetail.snippet.channelTitle}
+                <CheckCircle sx={{ fontSize: '12px', color: 'gray', ml: '5px' }} />
+              </Typography>
+            </Stack>
+          </Link>
         </Box>
         <Box width={{ xs: '100%', md: '25%' }} height={{ xs: 'auto', md: '200vh' }} sx={{ overflow: 'scroll' }}>
           <Typography variant="h6" mb={1} textAlign={'center'}>
